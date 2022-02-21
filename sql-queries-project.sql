@@ -98,6 +98,12 @@ FROM
 ALTER TABLE house_price_data
 DROP COLUMN date;
 
+SELECT 
+    *
+FROM
+    house_price_data
+LIMIT 10;
+
 -- 6. Use sql query to find how many rows of data you have.
 
 SELECT 
