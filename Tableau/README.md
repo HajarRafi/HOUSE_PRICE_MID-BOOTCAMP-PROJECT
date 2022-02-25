@@ -10,3 +10,8 @@
 8. Now we want to deep dive into the categories we created in the last question. Let’s see how many properties are in each of the categories. Indicate the numbers as labels on each of the three categories.
 9. Deep dive in category A, category B and category C using filters. Identify different characteristics/trends for each of the three categories.
 10. Create a visually appealing dashboard to represent the information. 
+# My answers:
+The whole Tableau story can be found [here](https://public.tableau.com/app/profile/hajar1648/viz/house_price_project_visualization/ProjectVisualization) (use full screen). It is important to mention, that the cleaned data was used as a source for visualizations. Therefore, some answers can vary according to the data (will be explained below).
+
+1. All measures, except Price, Sqft Living and Sqft Lot were converted to dimensions. The reason is few unique values, which can be considered as categories. 
+2. 
