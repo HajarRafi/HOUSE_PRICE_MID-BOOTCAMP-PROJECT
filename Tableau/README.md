@@ -32,9 +32,11 @@ From the bar graphs above we can compare Average Price with Features. The labels
 * In case with the __Number of Floors__, an unexpected decrease of average price on the number 3 was observed. The average price stops to increase on the 2,5 number of floors. From the graph we see that the most prefered houses are with 1 or 2 floors.
 
 #### 3. In the cleaning process it was decided to drop Sqft Above, Sqft Living15 and Lot15 (see the reason in _house_price_project_cleaning.ipynb_ file). Instead, Sqft Living and Sqft Lot will be used to draw scatter plots. Sqft Basement was changed to Basement with boolean values and will be used later.
-<img width="1209" alt="Screen Shot 2022-02-26 at 13 55 37" src="https://user-images.githubusercontent.com/94174764/155844133-e8bd4c8a-9385-4db3-a41e-3ed2a7cb3b2d.png">
+<img width="952" alt="Screen Shot 2022-02-26 at 14 48 12" src="https://user-images.githubusercontent.com/94174764/155845599-6a2107a4-7fe0-4728-b314-c7b3cf4f970d.png">
 
 From the plots we notice positive linear relationship between __Price and Sqft Living__, which means the more is the size of living the more is the price. However some of the values are placed far from the line, that is because there are many other factors that affect the price. On the contrary, __Sqft Lot__ shows no relationship with the __Price__. Houses with small lot size can be more expensive than the ones with much bigger lot size.
 
 #### 4. On the map below
-<img width="1203" alt="Screen Shot 2022-02-26 at 14 37 46" src="https://user-images.githubusercontent.com/94174764/155845319-bc5277f2-71bd-4306-a128-b1b8b424ffaa.png">
+<img width="926" alt="Screen Shot 2022-02-26 at 14 38 19" src="https://user-images.githubusercontent.com/94174764/155845519-3d491780-ace7-4b68-b579-59c89dcd40bd.png">
+
+
