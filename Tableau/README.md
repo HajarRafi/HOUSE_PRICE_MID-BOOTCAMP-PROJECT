@@ -13,8 +13,8 @@
 # My answers:
 The whole Tableau story can be found [here](https://public.tableau.com/app/profile/hajar1648/viz/house_price_project_visualization/ProjectVisualization) (use full screen). It is important to mention, that the cleaned data was used as a source for visualizations. Therefore, some answers can vary according to the data (will be explained below).
 
-1. All measures, except Price, Sqft Living and Sqft Lot were converted to dimensions. The reason is few unique values, which can be considered as categories. 
-2. The given independent variables can be divided into 2 parts: 
+#### 1. All measures, except Price, Sqft Living and Sqft Lot were converted to dimensions. The reason is few unique values, which can be considered as categories. 
+#### 2. The given independent variables can be divided into 2 parts: 
 * Features - include Grade, Condition, View and Waterfront variables, which kind of evaluate the Property.
 * Details - include Number of Bedrooms, Bathrooms and Floors, which describe the Property.
 <img width="806" alt="Screen Shot 2022-02-26 at 10 48 48" src="https://user-images.githubusercontent.com/94174764/155838523-fcf084e5-3862-4522-b744-db178bf05bb4.png">
@@ -31,7 +31,10 @@ From the bar graphs above we can compare Average Price with Features. The labels
 * Among 3 graphs above, the __Number of Bathrooms (grouped)__ give the most rise to average price (from about 400 thousand to about 5 million).
 * In case with the __Number of Floors__, an unexpected decrease of average price on the number 3 was observed. The average price stops to increase on the 2,5 number of floors. From the graph we see that the most prefered houses are with 1 or 2 floors.
 
-3. In the cleaning process it was decided to drop Sqft Above, Sqft Living15 and Lot15 (see the reason in _house_price_project_cleaning.ipynb_ file). Instead, Sqft Living and Sqft Lot will be used to draw scatter plots. Sqft Basement was changed to Basement with boolean values and will be used later.
+#### 3. In the cleaning process it was decided to drop Sqft Above, Sqft Living15 and Lot15 (see the reason in _house_price_project_cleaning.ipynb_ file). Instead, Sqft Living and Sqft Lot will be used to draw scatter plots. Sqft Basement was changed to Basement with boolean values and will be used later.
 <img width="1209" alt="Screen Shot 2022-02-26 at 13 55 37" src="https://user-images.githubusercontent.com/94174764/155844133-e8bd4c8a-9385-4db3-a41e-3ed2a7cb3b2d.png">
 
-From the plots we notice positive linear relationship between __Price and Sqft Living__, which means the more is the size of living the more is the price. However some of the values are placed far from the line, that is because there are many other factors that affect the price. On the contrary, __Sqft Lot__ shows no relation with the __Price__. Houses with small lot size can be more expensive than the ones with much bigger lot size.
+From the plots we notice positive linear relationship between __Price and Sqft Living__, which means the more is the size of living the more is the price. However some of the values are placed far from the line, that is because there are many other factors that affect the price. On the contrary, __Sqft Lot__ shows no relationship with the __Price__. Houses with small lot size can be more expensive than the ones with much bigger lot size.
+
+#### 4. On the map below
+<img width="1203" alt="Screen Shot 2022-02-26 at 14 37 46" src="https://user-images.githubusercontent.com/94174764/155845319-bc5277f2-71bd-4306-a128-b1b8b424ffaa.png">
