@@ -21,9 +21,12 @@ The whole Tableau story can be found [here](https://public.tableau.com/app/profi
 
 From the bar graphs above we can compare Average Price with Features. The labels on bars indicate number of houses and the color gets darker as this number increases. My observations are as following:
 * Average __Condition__ mark (3) has more than half number of houses and its average price is little lower than the highest Condition mark (5).
-* As for the __Grade__, we observe gradual increase starting from the middle (7). The more is grade the higher is the average price. Most of the values fall to the middle points.
+* As for the __Grade__, we observe gradual increase starting from the middle (7). The more is grade the higher is the average price. Most of the values fall to the middle points. When we compare the trends on average price, we see that the grade of house causes significant incease on the average price, reaching the value of about 4 million.
 * The variable __View__ seems to be irrelevant for further EDA, as more than 90% of houses are concerned to have no view, which doesn't make sense.
 * The same with __Waterfront__ variable. Despite the fact that only 163 houses have view to waterfront, the average price is 3 times more than the houses with no waterfront.
 <img width="816" alt="Screen Shot 2022-02-26 at 12 03 42" src="https://user-images.githubusercontent.com/94174764/155840808-a7db0f99-415b-4ec9-8573-46e0cb92c8f8.png">
 
-* From the graphs we see that most popular houses are those with __3 or 4 Bedrooms__ and __1 or 2 Bathrooms__.
+* From the graphs we see that most popular houses are those with __3 or 4 Bedrooms__ and __1 or 2 Bathrooms__, which average price is around half million.
+* When we look at the __Number of Bedrooms__ graph we see a steady increase till the number reaches 8, which is the peak on the average price (more than million), and then we observe a decrease as the number gets more. The few number of houses with 9 or 10 bedrooms can indicate a low demand and hence lower average price.
+* Among 3 graphs above, the __Number of Bathrooms (grouped)__ give the most rise to average price (from about 400 thousand to about 5 million).
+* In case with the __Number of Floors__ unexpected decrease of average price on the number 3 was observed. The average price stops to increase on the 2,5 number of floors. From the graph we see that the most prefered house are with 1 or 2 floors.
