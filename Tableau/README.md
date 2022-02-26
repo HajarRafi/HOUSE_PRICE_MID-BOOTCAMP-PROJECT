@@ -57,3 +57,5 @@ You can filter by the Number of Bedrooms to see the trends on Average Price usin
 * __First 10 years of 21th century__ with about 3 thousand properties and the Average Price of aroung 600 thousand.
 * __After the year 2010__, which has the highest Average Price (nearly 650 thousand), but the least Number of Houses.
 <img width="845" alt="Screen Shot 2022-02-26 at 15 57 07" src="https://user-images.githubusercontent.com/94174764/155847715-24d26533-11de-43c5-86c7-62c19bdeaf05.png">
+
+When you use filters given (__Condition and Grade__), you see that the Condition mark below 3 belongs only to properties from 20th century. Besides that, you can observe a significant growth on the Average Price of houses built before 1950 when filtering the grade to above 8 (but there will remain only 326 properties).
