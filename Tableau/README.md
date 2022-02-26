@@ -30,3 +30,8 @@ From the bar graphs above we can compare Average Price with Features. The labels
 * When we look at the __Number of Bedrooms__ graph we see a steady increase till the number reaches 8, which is the peak on the average price (more than million), and then we observe a decrease as the number gets more. The few number of houses with 9 or 10 bedrooms can indicate a low demand and hence lower average price.
 * Among 3 graphs above, the __Number of Bathrooms (grouped)__ give the most rise to average price (from about 400 thousand to about 5 million).
 * In case with the __Number of Floors__, an unexpected decrease of average price on the number 3 was observed. The average price stops to increase on the 2,5 number of floors. From the graph we see that the most prefered houses are with 1 or 2 floors.
+
+3. In the cleaning process it was decided to drop Sqft Above, Sqft Living15 and Lot15 (see the reason in _house_price_project_cleaning.ipynb_ file). Instead, Sqft Living and Sqft Lot will be used to draw scatter plots. Sqft Basement was changed to Basement with boolean values and will be used later.
+<img width="1209" alt="Screen Shot 2022-02-26 at 13 55 37" src="https://user-images.githubusercontent.com/94174764/155844133-e8bd4c8a-9385-4db3-a41e-3ed2a7cb3b2d.png">
+
+From the plots we notice positive linear relationship between __Price and Sqft Living__, which means the more is the size of living the more is the price. However some of the values are placed far from the line, that is because there are many other factors that affect the price. On the contrary, __Sqft Lot__ shows no relation with the __Price__. Houses with small lot size can be more expensive than the ones with much bigger lot size.
