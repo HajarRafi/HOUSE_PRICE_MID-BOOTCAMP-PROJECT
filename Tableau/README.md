@@ -14,4 +14,16 @@
 The whole Tableau story can be found [here](https://public.tableau.com/app/profile/hajar1648/viz/house_price_project_visualization/ProjectVisualization) (use full screen). It is important to mention, that the cleaned data was used as a source for visualizations. Therefore, some answers can vary according to the data (will be explained below).
 
 1. All measures, except Price, Sqft Living and Sqft Lot were converted to dimensions. The reason is few unique values, which can be considered as categories. 
-2. 
+2. The given independent variables can be divided into 2 parts: 
+* Features - include Grade, Condition, View and Waterfront variables, which kind of evaluate the Property.
+* Details - include Number of Bedrooms, Bathrooms and Floors, which describe the Property.
+<img width="806" alt="Screen Shot 2022-02-26 at 10 48 48" src="https://user-images.githubusercontent.com/94174764/155838523-fcf084e5-3862-4522-b744-db178bf05bb4.png">
+
+From the bar graphs above we can compare Average Price with Features. The labels on bars indicate number of houses and the color gets darker as this number increases. My observations are as following:
+* Average __Condition__ mark (3) has more than half number of houses and its average price is little lower than the highest Condition mark (5).
+* As for the __Grade__, we observe gradual increase starting from the middle (7). The more is grade the higher is the average price. Most of the values fall to the middle points.
+* The variable __View__ seems to be irrelevant for further EDA, as more than 90% of houses are concerned to have no view, which doesn't make sense.
+* The same with __Waterfront__ variable. Despite the fact that only 163 houses have view to waterfront, the average price is 3 times more than the houses with no waterfront.
+<img width="816" alt="Screen Shot 2022-02-26 at 12 03 42" src="https://user-images.githubusercontent.com/94174764/155840808-a7db0f99-415b-4ec9-8573-46e0cb92c8f8.png">
+
+* From the graphs we see that most popular houses are those with __3 or 4 Bedrooms__ and __1 or 2 Bathrooms__.
