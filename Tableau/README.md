@@ -36,7 +36,24 @@ From the bar graphs above we can compare Average Price with Features. The labels
 
 From the plots we notice positive linear relationship between __Price and Sqft Living__, which means the more is the size of living the more is the price. However some of the values are placed far from the line, that is because there are many other factors that affect the price. On the contrary, __Sqft Lot__ shows no relationship with the __Price__. Houses with small lot size can be more expensive than the ones with much bigger lot size.
 
-#### 4. On the map below
+#### 4. The Washington map, where the data comes from, is divided to two parts. 
+* First one, shows the __Average Price__ of properties separated by regions. The darker color is the more is the Average Price. The most expensive houses are observed around the Lake Washington. 
+* The second one shows the __Number of Houses__ in these regions. The darker color - the more properties located.
 <img width="926" alt="Screen Shot 2022-02-26 at 14 38 19" src="https://user-images.githubusercontent.com/94174764/155845519-3d491780-ace7-4b68-b579-59c89dcd40bd.png">
 
+#### 5. Already done (see 2. activity).
+#### 6. The activity was done in combination with variables Renovated and Basement. The line graphs below are divided to:
+* __Average Price over the Year Built__, separated to the houses that were (1) and weren't (0) __Renovated__. There is a huge difference on Average Price, especially between the years 1980 and 2000. It was also surprising to see, that not Renovated ones doesn't show big difference on Average Price as the houses get "younger".
+* __Average Price over the Year Built__, separated to the houses that have (1) and have no (0) __Basement__. We still see the difference, especially in 1930s, on Average Price between the houses with and without basement.
+<img width="814" alt="Screen Shot 2022-02-26 at 15 28 19" src="https://user-images.githubusercontent.com/94174764/155846797-70222553-2bc8-4d19-8c52-0f0d22603018.png">
+You can filter by the Number of Bedrooms to see the trends on Average Price using the link to the story.
 
+#### 7. See next one.
+#### 8. See next one.
+#### 9. See next one.
+#### 10. The Year Built was divided and grouped to four parts:
+* __First half of 20th century__, which have about 5 thousand properties with Average Price of around 500 thousand.
+* __Second  half of 20th century__, where most of the properties were built, having the lowest Average Price.
+* __First 10 years of 21th century__ with about 3 thousand properties and the Average Price of aroung 600 thousand.
+* __After the year 2010__, which has the highest Average Price (nearly 650 thousand), but the least Number of Houses.
+<img width="845" alt="Screen Shot 2022-02-26 at 15 57 07" src="https://user-images.githubusercontent.com/94174764/155847715-24d26533-11de-43c5-86c7-62c19bdeaf05.png">
